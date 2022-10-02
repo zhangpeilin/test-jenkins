@@ -1,4 +1,4 @@
-FROM java:8
+FROM azul/zulu-openjdk:8u332-8.62.0.19
 COPY *.jar /app.jar
 CMD ["--server.port=8081"]
 EXPOSE 8081
